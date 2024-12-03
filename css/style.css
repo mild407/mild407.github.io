@@ -1,0 +1,200 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: url('../photos/Juicehome.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white; 
+    margin: 0;
+    padding: 0;
+}
+
+
+a {
+    text-decoration: none;
+    color: #f39c12;
+}
+
+a:hover {
+    color: #e74c3c;
+}
+
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.hero {
+    text-align: center;
+    padding: 60px 0;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+@keyframes fadeEffect {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.8;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.hero h1 {
+    font-size: 3em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero p {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.hero .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+    background-color: #e74c3c;
+}
+
+
+.intro {
+    text-align: center;
+    padding: 40px 0;
+}
+
+.intro h2 {
+    font-size: 2em;
+}
+
+.about-images, .gallery-images, .impact-images, .awards-images {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px 0;
+}
+
+.about-images img,
+.gallery-images img,
+
+
+.impact-images {
+    display: flex; 
+    justify-content: center; 
+    gap: 20px; 
+    padding: 20px 0; 
+}
+
+.impact-images img {
+    width: 45%; 
+    height: auto; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); 
+}
+
+.awards-images img {
+    width: 45%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.highlights {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px; 
+    padding: 40px 0; 
+}
+
+.highlight-card {
+    max-width: 600px; 
+    text-align: center;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7); 
+    border-radius: 10px; 
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5); 
+}
+
+.highlight-card h3 {
+    margin-bottom: 15px;
+    font-size: 1.8em;
+    color: #f39c12; 
+}
+
+.highlight-card p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.highlight-card .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f39c12;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.highlight-card .btn:hover {
+    background-color: #e74c3c;
+}
